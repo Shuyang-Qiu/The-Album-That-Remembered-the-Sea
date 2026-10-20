@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Noctero in the Album</title>
+  <desc id="desc">A small owl-like shadow creature perched on a glowing album page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111529"/>
+      <stop offset="100%" stop-color="#05080d"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#b6f6ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#b6f6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <circle cx="600" cy="310" r="220" fill="url(#moon)"/>
+  <rect x="220" y="390" width="760" height="150" rx="20" fill="#1b2238"/>
+  <rect x="250" y="420" width="700" height="92" rx="14" fill="#e7e4db" opacity="0.92"/>
+  <g transform="translate(520 180)">
+    <ellipse cx="80" cy="180" rx="95" ry="125" fill="#0a1021"/>
+    <circle cx="35" cy="90" r="45" fill="#0a1021"/>
+    <circle cx="125" cy="90" r="45" fill="#0a1021"/>
+    <polygon points="30,48 10,5 52,35" fill="#0a1021"/>
+    <polygon points="130,48 150,5 108,35" fill="#0a1021"/>
+    <circle cx="50" cy="96" r="16" fill="#8af1ff"/>
+    <circle cx="110" cy="96" r="16" fill="#8af1ff"/>
+    <circle cx="50" cy="96" r="6" fill="#08131d"/>
+    <circle cx="110" cy="96" r="6" fill="#08131d"/>
+    <polygon points="80,125 66,145 94,145" fill="#f7b24a"/>
+    <path d="M35 220 Q80 250 125 220" stroke="#8af1ff" stroke-width="4" fill="none" opacity="0.6"/>
+  </g>
+  <g fill="#9ee7ff" opacity="0.5">
+    <circle cx="330" cy="150" r="5"/>
+    <circle cx="360" cy="180" r="8"/>
+    <circle cx="890" cy="130" r="5"/>
+    <circle cx="850" cy="190" r="9"/>
+    <circle cx="930" cy="230" r="6"/>
+  </g>
+</svg>

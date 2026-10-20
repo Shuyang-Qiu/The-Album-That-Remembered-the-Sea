@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Perfect Ending</title>
+  <desc id="desc">The journal and Noctero glow together over a restored album page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b2230"/>
+      <stop offset="100%" stop-color="#061015"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <circle cx="600" cy="210" r="180" fill="#85f4ff" opacity="0.15"/>
+  <rect x="260" y="330" width="680" height="180" rx="24" fill="#eef5f2" opacity="0.92"/>
+  <rect x="335" y="215" width="180" height="245" rx="16" fill="#195d69"/>
+  <rect x="585" y="225" width="200" height="155" rx="16" fill="#0b1021"/>
+  <circle cx="645" cy="290" r="20" fill="#8cf4ff"/>
+  <circle cx="725" cy="290" r="20" fill="#8cf4ff"/>
+  <path d="M640 240 L618 195 L654 227" fill="#0b1021"/>
+  <path d="M730 240 L752 195 L716 227" fill="#0b1021"/>
+  <path d="M425 255 C455 275, 460 330, 430 390" stroke="#a1efff" stroke-width="6" fill="none"/>
+  <path d="M620 470 C710 430, 770 410, 845 370" stroke="#b5ffd9" stroke-width="5" fill="none"/>
+</svg>

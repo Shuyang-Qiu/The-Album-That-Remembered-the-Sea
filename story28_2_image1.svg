@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Waterproof Travel Journal</title>
+  <desc id="desc">A travel journal opening to reveal hidden watery routes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062133"/>
+      <stop offset="100%" stop-color="#091019"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a7281"/>
+      <stop offset="100%" stop-color="#144551"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <ellipse cx="680" cy="215" rx="320" ry="130" fill="#79dfff" opacity="0.08"/>
+  <g transform="translate(250 115)">
+    <rect x="80" y="50" width="240" height="380" rx="18" fill="url(#book)"/>
+    <rect x="330" y="50" width="320" height="380" rx="18" fill="#efeee9"/>
+    <line x1="325" y1="60" x2="325" y2="425" stroke="#0d3640" stroke-width="7"/>
+    <path d="M390 145 C420 115, 500 110, 540 150 C600 208, 640 205, 610 290 C560 375, 450 360, 405 300 C370 250, 350 190, 390 145Z" fill="#83e7ff" opacity="0.35"/>
+    <path d="M410 140 C460 175, 485 220, 470 315" stroke="#197b92" stroke-width="6" fill="none"/>
+    <path d="M500 145 C560 170, 575 210, 560 285" stroke="#36a2b8" stroke-width="6" fill="none"/>
+    <circle cx="520" cy="190" r="14" fill="#0c2230" opacity="0.7"/>
+    <circle cx="430" cy="345" r="10" fill="#0c2230" opacity="0.5"/>
+    <circle cx="880" cy="110" r="0" fill="#000"/>
+  </g>
+  <g fill="#b5f7ff" opacity="0.7">
+    <circle cx="185" cy="150" r="11"/>
+    <circle cx="215" cy="200" r="6"/>
+    <circle cx="160" cy="255" r="14"/>
+    <circle cx="1030" cy="110" r="9"/>
+    <circle cx="980" cy="165" r="13"/>
+    <circle cx="1040" cy="225" r="6"/>
+  </g>
+</svg>
